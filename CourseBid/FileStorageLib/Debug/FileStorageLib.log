@@ -1,0 +1,16 @@
+﻿Build started 9/29/2015 6:32:43 PM.
+     1>Project "C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\FileStorageLib\FileStorageLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FileStorage.cpp
+         FileStorage.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\Debug\FileStorageLib.lib" /NOLOGO Debug\Course.obj
+         Debug\FileStorage.obj
+         Debug\Student.obj
+         Debug\Terminal.obj
+         FileStorageLib.vcxproj -> C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\Debug\FileStorageLib.lib
+     1>Done Building Project "C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\FileStorageLib\FileStorageLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79

@@ -1,0 +1,109 @@
+﻿Build started 9/26/2015 4:58:13 PM.
+     1>Project "C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\CourseBid\CourseBid.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\ExpressionParsingLib" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DataUpdate.cpp main.cpp
+         main.cpp
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(5): error C2653: 'ConstExpr' : is not a class or namespace name
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(6): error C2065: 'value' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(8): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(6): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(8): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(9): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2614: 'BinaryOperator' : illegal member initialization: 'left' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2614: 'BinaryOperator' : illegal member initialization: 'right' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryplus.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryplus.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryminus.h(10): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryminus.h(10): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(5): error C2084: function 'double ConstExpr::evaluate(int)' already has a body
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(9): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(11): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2065: 'pExpression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2614: 'UnaryMinus' : illegal member initialization: 'expr' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binatymult.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binatymult.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binarydiv.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binarydiv.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\at.h(7): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): warning C4183: 'getExpression': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2065: 'Expression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2059: syntax error : '>'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2976: 'std::stack' : too few template arguments
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stack(17) : see declaration of 'std::stack'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(25): error C2512: 'std::stack' : no appropriate default constructor available
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): warning C4183: 'getExpression': missing return type; assumed to be a member function returning 'int'
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+         DataUpdate.cpp
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(5): error C2653: 'ConstExpr' : is not a class or namespace name
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(6): error C2065: 'value' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(8): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(6): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(8): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(9): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2614: 'BinaryOperator' : illegal member initialization: 'left' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryoperator.h(11): error C2614: 'BinaryOperator' : illegal member initialization: 'right' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryplus.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryplus.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryminus.h(10): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binaryminus.h(10): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\expression.h(5): error C2084: function 'double ConstExpr::evaluate(int)' already has a body
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(9): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(11): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2065: 'pExpression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\unaryminus.h(14): error C2614: 'UnaryMinus' : illegal member initialization: 'expr' is not a base or member
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binatymult.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binatymult.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binarydiv.h(11): error C2061: syntax error : identifier 'Expression'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\binarydiv.h(11): error C2661: 'BinaryOperator::BinaryOperator' : no overloaded function takes 2 arguments
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\at.h(7): error C2504: 'Expression' : base class undefined
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(34): warning C4183: 'getExpression': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2065: 'Expression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2059: syntax error : '>'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(45): error C2976: 'std::stack' : too few template arguments
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stack(17) : see declaration of 'std::stack'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\parser.h(25): error C2512: 'std::stack' : no appropriate default constructor available
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\lexer.h(18): warning C4183: 'getExpression': missing return type; assumed to be a member function returning 'int'
+                 c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\constexpr.h(12) : see previous definition of 'evaluate'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(21): error C2065: 'Expression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(21): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(22): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(293): error C2065: 'Expression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(293): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(294): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(294): error C2227: left of '->evaluate' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(329): error C2065: 'Expression' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(329): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(330): error C2065: 'ex' : undeclared identifier
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(330): error C2227: left of '->evaluate' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(380): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rotem\documents\visual studio 2013\projects\anotherproject\coursebid\coursebid\dataupdate.cpp(422): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>Done Building Project "C:\Users\rotem\Documents\Visual Studio 2013\Projects\anotherProject\CourseBid\CourseBid\CourseBid.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.45

@@ -1,0 +1,84 @@
+#
+s1
+dulu lugu
+0
+c1
+
+
+#
+s10
+qwe qwe
+2
+
+
+
+#
+s11
+eee rrr
+3
+
+
+
+#
+s2
+rotem mattitha
+0
+
+
+
+#
+s3
+ruben jami
+0
+
+
+
+#
+s4
+rafi mirali
+0
+
+
+
+#
+s6
+qwe qwe
+0
+
+c1 0,c100 2,c2 0,
+
+#
+s7
+zxc cxz
+0
+
+
+
+#
+c1
+gdfg
+gdff gdfgr
+7
+
+50
+
+#
+c100
+eqwe rer
+gfg ggg
+6
+c4
+0
+
+#
+c4
+gdfg
+gdff gdfgr
+7
+
+50
+
+#
+t1
+0
+#
